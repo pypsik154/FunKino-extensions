@@ -10,16 +10,16 @@ function mountPlayer(siteUrl) {
 function httpGet() {
     var xmlHttp = new XMLHttpRequest();
     try {
-        xmlHttp.open("GET", "https://rat.cloudpub.ru/reyohoho_link", false);
+        xmlHttp.open("GET", "", false);
         xmlHttp.send(null);
         if(xmlHttp.status == 200) {
             return xmlHttp.responseText + "#";
         } else {
-            return "https://banan.xuyso.su/#";
+            return "https://fun-kino.vercel.app/#";
         }
     } catch (e) {
         console.log(e);
-        return "https://banan.xuyso.su/#";
+        return "https://fun-kino.vercel.app/#";
     }
 }
 //create Player button
