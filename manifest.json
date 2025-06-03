@@ -3,7 +3,7 @@
   "description": "Open FunKino directly from kinopoisk.ru or shikimori.one",
   "version": "1.0.7",
   "author": "banan",
-  "homepage_url": "https://banan.xuyso.su/",
+  "homepage_url": "https://fun-kino.vercel.app/",
   "manifest_version": 3,
   "content_scripts": [{
     "matches": ["https://*.kinopoisk.ru/*", "https://*.shikimori.one/*"],
